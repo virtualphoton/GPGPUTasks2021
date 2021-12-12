@@ -1,3 +1,6 @@
+// I've got no idea, why __clion_ide__ is defined
+#define __CLION_IDE__
+
 #ifndef clion_defines_cl // pragma once
 #define clion_defines_cl
 
@@ -9,6 +12,7 @@
 #define __constant
 #define __private
 
+#define uint unsigned int
 #define half float
 
 struct float2 { float x;          };
